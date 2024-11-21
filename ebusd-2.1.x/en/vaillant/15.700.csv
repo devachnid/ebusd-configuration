@@ -22,13 +22,13 @@ r;w,,Time,time,,,,3500,,,HTI,,,Aktuelle Uhrzeit
 r;w,,HydraulicScheme,system schema,,,,3600,,,UIN,,,Systemschema
 #r;w,,Unknown38,(constant 21),,,,3800,,,tempv,,,unknown value
 r,,WaterPressure,water pressure,,,,3900,,,pressv,,,Wasserdruck
-r;w,,SolarYieldTotal,total solar yield,,,,3D00,,,energy4,,,Solarertrag gesamt
+#r;w,,SolarYieldTotal,total solar yield,,,,3D00,,,energy4,,,Solarertrag gesamt
 r;w,,YieldTotal,total environmental yield,,,,3E00,,,energy4,,,Umweltertrag gesamt
 r;w,,VentilationDay,day ventilation speed,,,,4200,,,UIN,,,Ventilation speed during day
 r;w,,VentilationNight,night ventilation,,,,4300,,,UIN,,,Ventilation speed during night
 r;w,,HwcMaxFlowTempDesired,hwc max flow temp desired,,,,4600,,,tempv,,,maximum flow temperature setpoint of Hwc
 r,,SystemFlowTemp,system flow temp,,,,4B00,,,tempv,,,Systemvorlauf
-r;w,,MultiRelaySetting,multifunction relay setting,,,,4D00,,,mamode,,,
+#r;w,,MultiRelaySetting,multifunction relay setting,,,,4D00,,,mamode,,,
 r;w,,PrFuelSumHcThisMonth,this months fuel consumption heating,,,,4E00,,,energy4,,,Aktueller Monat Brennstoffverbrauch Heizung
 r;w,,PrEnergySumHcThisMonth,this months energy consumption heating,,,,4F00,,,energy4,,,Aktueller Monat Stromverbrauch Heizung
 r;w,,PrEnergySumHwcThisMonth,this months energy consumption hot water,,,,5000,,,energy4,,,Aktueller Monat Stromverbrauch hot water
@@ -219,33 +219,33 @@ r;w,,z3Name2,label zone 3 part 2,,,,1800,,,zname,,,name of zone 3
 # air,,,,,,,,,,,,,
 *r,,,,,,B524,03000001,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04000001,,,,,,
-r;w,,ventilationTimer.Monday,timer air monday,,,,00,,,slot1-3,,,
-r;w,,ventilationTimer.Tuesday,timer air tuesday,,,,01,,,slot1-3,,,
-r;w,,ventilationTimer.Wednesday,timer air wednesday,,,,02,,,slot1-3,,,
-r;w,,ventilationTimer.Thursday,timer air thursday,,,,03,,,slot1-3,,,
-r;w,,ventilationTimer.Friday,timer air friday,,,,04,,,slot1-3,,,
-r;w,,ventilationTimer.Saturday,timer air saturday,,,,05,,,slot1-3,,,
-r;w,,ventilationTimer.Sunday,timer air sunday,,,,06,,,slot1-3,,,
+#r;w,,ventilationTimer.Monday,timer air monday,,,,00,,,slot1-3,,,
+#r;w,,ventilationTimer.Tuesday,timer air tuesday,,,,01,,,slot1-3,,,
+#r;w,,ventilationTimer.Wednesday,timer air wednesday,,,,02,,,slot1-3,,,
+#r;w,,ventilationTimer.Thursday,timer air thursday,,,,03,,,slot1-3,,,
+#r;w,,ventilationTimer.Friday,timer air friday,,,,04,,,slot1-3,,,
+#r;w,,ventilationTimer.Saturday,timer air saturday,,,,05,,,slot1-3,,,
+#r;w,,ventilationTimer.Sunday,timer air sunday,,,,06,,,slot1-3,,,
 # noise reduction,,,,,,,,,,,,,
 *r,,,,,,B524,03000002,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04000002,,,,,,
-r;w,,noiseReductionTimer.Monday,timer noise reduction monday,,,,00,,,slot1-3,,,
-r;w,,noiseReductionTimer.Tuesday,timer noise reduction tuesday,,,,01,,,slot1-3,,,
-r;w,,noiseReductionTimer.Wednesday,timer noise reduction wednesday,,,,02,,,slot1-3,,,
-r;w,,noiseReductionTimer.Thursday,timer noise reduction thursday,,,,03,,,slot1-3,,,
-r;w,,noiseReductionTimer.Friday,timer noise reduction friday,,,,04,,,slot1-3,,,
-r;w,,noiseReductionTimer.Saturday,timer noise reduction saturday,,,,05,,,slot1-3,,,
-r;w,,noiseReductionTimer.Sunday,timer noise reduction sunday,,,,06,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Monday,timer noise reduction monday,,,,00,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Tuesday,timer noise reduction tuesday,,,,01,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Wednesday,timer noise reduction wednesday,,,,02,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Thursday,timer noise reduction thursday,,,,03,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Friday,timer noise reduction friday,,,,04,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Saturday,timer noise reduction saturday,,,,05,,,slot1-3,,,
+#r;w,,noiseReductionTimer.Sunday,timer noise reduction sunday,,,,06,,,slot1-3,,,
 # tariff,,,,,,,,,,,,,
 *r,,,,,,B524,03000003,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04000003,,,,,,
-r;w,,tariffTimer.Monday,timer tariff monday,,,,00,,,slot1-3,,,
-r;w,,tariffTimer.Tuesday,timer tariff tuesday,,,,01,,,slot1-3,,,
-r;w,,tariffTimer.Wednesday,timer tariff wednesday,,,,02,,,slot1-3,,,
-r;w,,tariffTimer.Thursday,timer tariff thursday,,,,03,,,slot1-3,,,
-r;w,,tariffTimer.Friday,timer tariff friday,,,,04,,,slot1-3,,,
-r;w,,tariffTimer.Saturday,timer tariff saturday,,,,05,,,slot1-3,,,
-r;w,,tariffTimer.Sunday,timer tariff sunday,,,,06,,,slot1-3,,,
+#r;w,,tariffTimer.Monday,timer tariff monday,,,,00,,,slot1-3,,,
+#r;w,,tariffTimer.Tuesday,timer tariff tuesday,,,,01,,,slot1-3,,,
+#r;w,,tariffTimer.Wednesday,timer tariff wednesday,,,,02,,,slot1-3,,,
+#r;w,,tariffTimer.Thursday,timer tariff thursday,,,,03,,,slot1-3,,,
+#r;w,,tariffTimer.Friday,timer tariff friday,,,,04,,,slot1-3,,,
+#r;w,,tariffTimer.Saturday,timer tariff saturday,,,,05,,,slot1-3,,,
+#r;w,,tariffTimer.Sunday,timer tariff sunday,,,,06,,,slot1-3,,,
 # timers hot water,,,,,,,,,,,,,
 *r,,,,,,B524,03010001,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04010001,,,,,,
@@ -259,13 +259,13 @@ r;w,,hwcTimer.Sunday,timer hwc sunday,,,,06,,,slot1-3,,,
 # Zeitprogramm circulation pump,,,,,,,,,,,,,
 *r,,,,,,B524,03010002,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04010002,,,,,,
-r;w,,ccTimer.Monday,timer cc monday,,,,00,,,slot1-3,,,
-r;w,,ccTimer.Tuesday,timer cc tuesday,,,,01,,,slot1-3,,,
-r;w,,ccTimer.Wednesday,timer cc wednesday,,,,02,,,slot1-3,,,
-r;w,,ccTimer.Thursday,timer cc thursday,,,,03,,,slot1-3,,,
-r;w,,ccTimer.Friday,timer cc friday,,,,04,,,slot1-3,,,
-r;w,,ccTimer.Saturday,timer cc saturday,,,,05,,,slot1-3,,,
-r;w,,ccTimer.Sunday,timer cc sunday,,,,06,,,slot1-3,,,
+#r;w,,ccTimer.Monday,timer cc monday,,,,00,,,slot1-3,,,
+#r;w,,ccTimer.Tuesday,timer cc tuesday,,,,01,,,slot1-3,,,
+#r;w,,ccTimer.Wednesday,timer cc wednesday,,,,02,,,slot1-3,,,
+#r;w,,ccTimer.Thursday,timer cc thursday,,,,03,,,slot1-3,,,
+#r;w,,ccTimer.Friday,timer cc friday,,,,04,,,slot1-3,,,
+#r;w,,ccTimer.Saturday,timer cc saturday,,,,05,,,slot1-3,,,
+#r;w,,ccTimer.Sunday,timer cc sunday,,,,06,,,slot1-3,,,
 # timers zone 1,,,,,,,,,,,,,
 *r,,,,,,B524,03030002,,,IGN:1,,,whether timeslot is valid
 *w,,,,,,B524,04030002,,,,,,
